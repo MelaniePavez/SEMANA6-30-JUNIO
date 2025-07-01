@@ -1,0 +1,24 @@
+ion-toolbar {
+  --background: #9c27b0; /* Morado profesional */
+  color: #fff;
+}
+
+.producto-item {
+  --background: #f8f8f8;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(156, 39, 176, 0.3);
+}
+
+ion-label h2 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #4a148c; /* Morado oscuro */
+  margin-bottom: 4px;
+}
+
+.precio {
+  font-size: 0.95rem;
+  color: #7b1fa2;
+  font-weight: 500;
+}

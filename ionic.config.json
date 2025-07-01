@@ -1,0 +1,7 @@
+{
+  "name": "frutix",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

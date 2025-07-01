@@ -1,0 +1,67 @@
+  <ion-header [translucent]="true">
+    <ion-toolbar> 
+      <app-company-name [companyName]="'Frutix'"></app-company-name>
+      <ion-buttons slot="end">
+          <ion-menu-button menu="mainMenu"></ion-menu-button>
+    </ion-buttons>  
+    </ion-toolbar> 
+  </ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding"> 
+
+
+<ion-content class="welcome-page">
+
+
+<ion-content class="welcome-page">
+
+  <!-- Tarjeta de bienvenida -->
+  <ion-card class="intro-card">
+    <ion-card-header class="intro-header" style="text-align:center;">
+      <ion-icon name="sparkles-outline" class="welcome-icon" style="font-size: 48px; color: #e91e63;"></ion-icon>
+      <ion-card-title style="font-weight: bold; font-size: 1.5rem; margin-top: 10px;">¡Bienvenida a MAKEUP!</ion-card-title>
+    </ion-card-header>
+    <ion-card-content style="text-align:center; font-size: 1rem; color: #555;">
+      Encuentra los mejores productos de maquillaje y cuidado personal para resaltar tu belleza.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Cards de productos sin imágenes, con espacio para agregar luego -->
+  <ion-card>
+    <div style="height: 180px; background: #fce4ec; border-radius: 8px; margin-bottom: 10px;"></div>
+    <ion-card-header>
+      <ion-card-title>Labial Matte</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Labiales de larga duración en tonos nude y vibrantes para todos los estilos.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <div style="height: 180px; background: #fce4ec; border-radius: 8px; margin-bottom: 10px;"></div>
+    <ion-card-header>
+      <ion-card-title>Base Líquida</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Cobertura perfecta para todo tipo de piel, con acabado natural y duradero.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <div style="height: 180px; background: #fce4ec; border-radius: 8px; margin-bottom: 10px;"></div>
+    <ion-card-header>
+      <ion-card-title>Paleta de Sombras</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Tonos cálidos y brillantes, ideales para looks de día y de noche.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Botón de WhatsApp -->
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="success" (click)="openWhatsApp()">
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
